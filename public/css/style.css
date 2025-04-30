@@ -1,0 +1,51 @@
+body {
+    background-color: rgb(255, 255, 127);
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+main {
+    flex: 1; /* Hace que el contenido principal ocupe el espacio disponible */
+}
+
+.img_logo {
+    width: 800px;
+    height: auto;
+    display: block; /* Convierte la imagen en un elemento de bloque */
+    margin: 0 auto; /* Centra horizontalmente */
+}
+
+.menu {
+    display: flex;
+    justify-content: center; /* Centra horizontalmente */
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    margin-top: 50px;
+  }
+  
+  .menu li {
+    margin: 0 30px; /* Aumenta el espaciado entre los elementos */
+  }
+  
+  .menu a {
+    text-decoration: none;
+    color: #333;
+    font-size: 16px;
+  }
+
+  h1, h2, h3, h5, h6 {
+    color: #333;
+    text-align: center; /* Centra todos los títulos */
+}
+
+
+
+  footer {
+    background-color: #333; /* Color de fondo del footer */
+    color: rgb(255, 255, 127);
+    text-align: center; /* Centra el texto */
+    padding: 20px 0; /* Espaciado interno */
+    margin-top: 50px; /* Separación del contenido superior */
+}
